@@ -1,0 +1,273 @@
+[
+{
+  "model": "admin.logentry",
+  "pk": 1,
+  "fields": {
+    "action_time": "2024-04-17T19:54:18.888Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "1",
+    "object_repr": "Solar eclipse of April 8, 2024",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 2,
+  "fields": {
+    "action_time": "2024-04-17T19:54:57.503Z",
+    "user": 1,
+    "content_type": 4,
+    "object_id": "3",
+    "object_repr": "Fero",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 3,
+  "fields": {
+    "action_time": "2024-04-17T19:55:24.039Z",
+    "user": 1,
+    "content_type": 4,
+    "object_id": "4",
+    "object_repr": "Jano",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 4,
+  "fields": {
+    "action_time": "2024-04-17T19:57:19.932Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "2",
+    "object_repr": "Indian Premier League",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 5,
+  "fields": {
+    "action_time": "2024-04-17T19:58:04.963Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "3",
+    "object_repr": "Rest API",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 6,
+  "fields": {
+    "action_time": "2024-04-17T19:59:15.871Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "4",
+    "object_repr": "Django",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 1,
+  "fields": {
+    "app_label": "admin",
+    "model": "logentry"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 2,
+  "fields": {
+    "app_label": "auth",
+    "model": "permission"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 3,
+  "fields": {
+    "app_label": "auth",
+    "model": "group"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 4,
+  "fields": {
+    "app_label": "auth",
+    "model": "user"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 5,
+  "fields": {
+    "app_label": "contenttypes",
+    "model": "contenttype"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 6,
+  "fields": {
+    "app_label": "sessions",
+    "model": "session"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 7,
+  "fields": {
+    "app_label": "blog",
+    "model": "article"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "8rlvdywpq0hezgrb9cboim070tl5cpem",
+  "fields": {
+    "session_data": ".eJxVjEEOwiAQRe_C2hAogZm6dO8ZCMMwUjU0Ke3KeHdt0oVu_3vvv1RM21rj1ssSJ1ZnZdXpd6OUH6XtgO-p3Wad57YuE-ld0Qft-jpzeV4O9--gpl6_NYwSAkBB9g4NoysQkCTZwVsYbGYh40k8GgjivXGFR3GIYgiyIafeH9AtN44:1rxPK7:u32meHezXAn6viirViuN-x2BPgEf8z2iAtVCms9A8fE",
+    "expire_date": "2024-05-02T10:48:59.500Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "e2d0qn3hzt3pbsa2lzsjvu0w58zons1q",
+  "fields": {
+    "session_data": ".eJxVjEEOwiAQRe_C2hAogZm6dO8ZCMMwUjU0Ke3KeHdt0oVu_3vvv1RM21rj1ssSJ1ZnZdXpd6OUH6XtgO-p3Wad57YuE-ld0Qft-jpzeV4O9--gpl6_NYwSAkBB9g4NoysQkCTZwVsYbGYh40k8GgjivXGFR3GIYgiyIafeH9AtN44:1rxBJI:ADNczbnksvrnK2bwPFzpAvWIHL92umf94tys8V4eyp8",
+    "expire_date": "2024-05-01T19:51:12.255Z"
+  }
+},
+{
+  "model": "blog.article",
+  "pk": 1,
+  "fields": {
+    "title": "Solar eclipse of April 8, 2024",
+    "created_date": "2024-04-17T19:54:18.886Z",
+    "edit_date": "2024-04-18T09:47:01.868Z",
+    "body": "The solar eclipse of April 8, 2024, also known as the Great North American Eclipse,[1] was a total solar eclipse visible across a band covering parts of North America, from Mexico to Canada and crossing the contiguous United States. A solar eclipse occurs when the Moon passes between Earth and the Sun, thereby obscuring the Sun. A total solar eclipse occurs when the Moon's apparent diameter is larger than the Sun's, blocking all direct sunlight. Totality occurs only in a limited path across Earth's surface, with the partial solar eclipse visible over a larger surrounding region.\r\n\r\nDuring this eclipse, the Moon's apparent diameter was 5.5 percent larger than average. With a magnitude of 1.0566, the eclipse's longest duration of totality was 4 minutes and 28.13 seconds just 4 mi (6 km) north of the Mexican town of Nazas, Durango.\r\n\r\nThis eclipse was the first total solar eclipse visible from Canada since August 1, 2008, and from the provinces since February 26, 1979.[2][3] It was the first over Mexico since July 11, 1991.[4] It was also the first over the United States since August 21, 2017. This is the only solar eclipse in the 21st century with totality visible from all three countries.[5] The next total solar eclipse in the US will be on March 30, 2033, which will pass over Alaska. The next total eclipse in the Contiguous United States of the US will be on August 23, 2044. The next total eclipse of similar width will take place on August 12, 2045, which will traverse coast-to-coast in a trajectory similar to the 2017 eclipse.",
+    "author": 1
+  }
+},
+{
+  "model": "blog.article",
+  "pk": 2,
+  "fields": {
+    "title": "Indian Premier League **Edited",
+    "created_date": "2024-04-17T19:57:19.930Z",
+    "edit_date": "2024-04-18T09:50:42.439Z",
+    "body": "The Indian Premier League (IPL), also known as the TATA IPL for sponsorship reasons, is a men's Twenty20 (T20) cricket league held annually in India. Founded by the BCCI in 2007, the league features ten city-based franchise teams.[3][4] The IPL usually takes place during the summer, between March and May each year. It has an exclusive window in the ICC Future Tours Programme, resulting in fewer international cricket tours occurring during the IPL seasons.[5]\r\n\r\nThe IPL is the most popular cricket league in the world; in 2014, it ranked sixth in average attendance among all sports leagues.[6] In 2010, the IPL became the first sporting event to be broadcast live on YouTube.[7][8] Inspired by the success of the IPL, other Indian sports leagues have been established.[a][11][12][13] In 2022, the league's brand value was estimated at ₹90,038 crore (US$11 billion).[14] According to the BCCI, the 2015 IPL season contributed ₹1,150 crore (US$140 million) to India's GDP.[15] In December 2022, the IPL achieved a valuation of US$10.9 billion, becoming a decacorn and registering a 75% growth in dollar terms since 2020 when it was valued at $6.2 billion, according to a report by the consulting firm D and P Advisory.[16] Its 2023 final became the most streamed live event on the internet, with 32 million viewers.[17]\r\n\r\nIn 2023, the league sold its media rights for the next 4 Seasons for US$6.4 billion to Viacom18 and Star Sports,[18] meaning each IPL match was valued at $13.4 million.[19] As of 2023, there have been sixteen seasons of the tournament. The current champions are the Chennai Super Kings, who won the 2023 season after defeating the Gujarat Titans in the final.[20",
+    "author": 3
+  }
+},
+{
+  "model": "blog.article",
+  "pk": 3,
+  "fields": {
+    "title": "Rest API",
+    "created_date": "2024-04-17T19:58:04.962Z",
+    "edit_date": "2024-04-17T19:58:04.962Z",
+    "body": "A RESTful API is an architectural style for an application program interface (API) that uses HTTP requests to access and use data. That data can be used to GET, PUT, POST and DELETE data types, which refers to the reading, updating, creating and deleting of operations concerning resources.",
+    "author": 4
+  }
+},
+{
+  "model": "blog.article",
+  "pk": 4,
+  "fields": {
+    "title": "Django",
+    "created_date": "2024-04-17T19:59:15.869Z",
+    "edit_date": "2024-04-17T19:59:15.869Z",
+    "body": "Django (/ˈdʒæŋɡoʊ/ JANG-goh; sometimes stylized as django)[6] is a free and open-source, Python-based web framework that runs on a web server. It follows the model–template–views (MTV) architectural pattern.[7][8] It is maintained by the Django Software Foundation (DSF), an independent organization established in the US as a 501(c)(3) non-profit.\r\n\r\nDjango's primary goal is to ease the creation of complex, database-driven websites. The framework emphasizes reusability and \"pluggability\" of components, less code, low coupling, rapid development, and the principle of don't repeat yourself.[9] Python is used throughout, even for settings, files, and data models. Django also provides an optional administrative create, read, update and delete interface that is generated dynamically through introspection and configured via admin models.\r\n\r\nSome well-known sites that use Django include Instagram,[10] Mozilla,[11] Disqus,[12] Bitbucket,[13] Nextdoor[14] and Clubhouse.[15]\r\n\r\nHistory\r\nDjango was created in the autumn of 2003, when the web programmers at the Lawrence Journal-World newspaper, Adrian Holovaty and Simon Willison, began using Python to build applications. Jacob Kaplan-Moss was hired early in Django's development shortly before Simon Willison's internship ended.[16] It was released publicly under a BSD license in July 2005. The framework was named after guitarist Django Reinhardt.[17] Adrian Holovaty is a Romani jazz guitar player inspired in part by Reinhardt's music.[18]\r\n\r\nIn June 2008, it was announced that a newly formed Django Software Foundation (DSF) would maintain Django in the future.[19]\r\n\r\nFeatures\r\nComponents\r\n\r\nScreenshot of the Django admin interface for modifying a user account\r\nDespite having its own nomenclature, such as naming the callable objects generating the HTTP responses \"views\",[7] the core Django framework can be seen as an MVC architecture.[8] It consists of an object-relational mapper (ORM) that mediates between data models (defined as Python classes) and a relational database (\"Model\"), a system for processing HTTP requests with a web templating system (\"View\"), and a regular-expression-based URL dispatcher (\"Controller\").",
+    "author": 2
+  }
+},
+{
+  "model": "blog.article",
+  "pk": 5,
+  "fields": {
+    "title": "Software quality",
+    "created_date": "2024-04-18T09:43:51.962Z",
+    "edit_date": "2024-04-18T09:43:51.962Z",
+    "body": "In the context of software engineering, software quality refers to two related but distinct notions:[citation needed]\r\n\r\nSoftware's functional quality reflects how well it complies with or conforms to a given design, based on functional requirements or specifications.[1] That attribute can also be described as the fitness for purpose of a piece of software or how it compares to competitors in the marketplace as a worthwhile product.[2] It is the degree to which the correct software was produced.\r\nSoftware structural quality refers to how it meets non-functional requirements that support the delivery of the functional requirements, such as robustness or maintainability. It has a lot more to do with the degree to which the software works as needed.\r\nMany aspects of structural quality can be evaluated only statically through the analysis of the software inner structure, its source code (see Software metrics),[3] at the unit level, and at the system level (sometimes referred to as end-to-end testing[4]), which is in effect how its architecture adheres to sound principles of software architecture outlined in a paper on the topic by Object Management Group (OMG).[5]\r\n\r\nHowever some structural qualities, such as usability, can be assessed only dynamically (users or others acting on their behalf interact with the software or, at least, some prototype or partial implementation; even the interaction with a mock version made in cardboard represents a dynamic test because such version can be considered a prototype). Other aspects, such as reliability, might involve not only the software but also the underlying hardware, therefore, it can be assessed both statically and dynamically (stress test).[citation needed]\r\n\r\nFunctional quality is typically assessed dynamically but it is also possible to use static tests (such as software reviews).[citation needed]\r\n\r\nHistorically, the structure, classification and terminology of attributes and metrics applicable to software quality management have been derived or extracted from the ISO 9126 and the subsequent ISO/IEC 25000 standard.[6] Based on these models (see Models), the Consortium for IT Software Quality (CISQ) has defined five major desirable structural characteristics needed for a piece of software to provide business value:[7] Reliability, Efficiency, Security, Maintainability and (adequate) Size.[8][9][10]\r\n\r\nSoftware quality measurement quantifies to what extent a software program or system rates along each of these five dimensions. An aggregated measure of software quality can be computed through a qualitative or a quantitative scoring scheme or a mix of both and then a weighting system reflecting the priorities. This view of software quality being positioned on a linear continuum is supplemented by the analysis of \"critical programming errors\" that under specific circumstances can lead to catastrophic outages or performance degradations that make a given system unsuitable for use regardless of rating based on aggregated measurements. Such programming errors found at the system level represent up to 90 percent of production issues, whilst at the unit-level, even if far more numerous, programming errors account for less than 10 percent of production issues (see also Ninety–ninety rule). As a consequence, code quality without the context of the whole system, as W. Edwards Deming described it, has limited value.[citation needed]\r\n\r\nTo view, explore, analyze, and communicate software quality measurements, concepts and techniques of information visualization provide visual, interactive means useful, in particular, if several software quality measures have to be related to each other or to components of a software or system. For example, software maps represent a specialized approach that \"can express and combine information about software development, software quality, and system dynamics\".[11]\r\n\r\nSoftware quality also plays a role in the release phase of a software project. Specifically, the quality and establishment of the release processes (also patch processes),[12][13] configuration management[14] are important parts of an overall software engineering process.[15][16][17]\r\n\r\nMotivation\r\nSoftware quality is motivated by at least two main perspectives:\r\n\r\nRisk management: Software failure has caused more than inconvenience. Software errors can cause human fatalities (see for example: List of software bugs). The causes have ranged from poorly designed user interfaces to direct programming errors,[18][19][20] see for example Boeing 737 case or Unintended acceleration cases[21][22] or Therac-25 cases.[23] This resulted in requirements for the development of some types of software, particularly and historically for software embedded in medical and other devices that regulate critical infrastructures: \"[Engineers who write embedded software] see Java programs stalling for one third of a second to perform garbage collection and update the user interface, and they envision airplanes falling out of the sky.\".[24] In the United States, within the Federal Aviation Administration (FAA), the FAA Aircraft Certification Service provides software programs, policy, guidance and training, focus on software and Complex Electronic Hardware that has an effect on the airborne product (a \"product\" is an aircraft, an engine, or a propeller).[25] Certification standards such as DO-178C, ISO 26262, IEC 62304, etc. provide guidance.\r\nCost management: As in any other fields of engineering, a software product or service governed by good software quality costs less to maintain, is easier to understand and can change more cost-effective in response to pressing business needs.[26] Industry data demonstrate that poor application structural quality in core business applications (such as enterprise resource planning (ERP), customer relationship management (CRM) or large transaction processing systems in financial services) results in cost, schedule overruns and creates waste in the form of rework (see Muda (Japanese term)).[27][28][29] Moreover, poor structural quality is strongly correlated with high-impact business disruptions due to corrupted data, application outages, security breaches, and performance problems.[30]\r\nCISQ reports on the cost of poor quality estimates an impact of:\r\n$2.08 trillion in 2020[31][32]\r\n$2.84 trillion in 2018\r\nIBM's Cost of a Data Breach Report 2020 estimates that the average global costs of a data breach:[33][34]\r\n$3.86 million\r\nDefinitions\r\nISO\r\nSoftware quality is the \"capability of a software product to conform to requirements.\"[35][36] while for others it can be synonymous with customer- or value-creation[37][38] or even defect level.[39] Software quality measurements can be split into three parts: process quality, product quality which includes internal and external properties and lastly, quality in use, which is the effect of the software.[40]\r\n\r\nASQ\r\nASQ uses the following definition: Software quality describes the desirable attributes of software products. There are two main approaches exist: defect management and quality attributes.[41]\r\n\r\nNIST\r\nSoftware Assurance (SA) covers both the property and the process to achieve it:[42]\r\n\r\n[Justifiable] confidence that software is free from vulnerabilities, either intentionally designed into the software or accidentally inserted at any time during its life cycle and that the software functions in the intended manner\r\nThe planned and systematic set of activities that ensure that software life cycle processes and products conform to requirements, standards, and procedures\r\nPMI\r\nThe Project Management Institute's PMBOK Guide \"Software Extension\" defines not \"Software quality\" itself, but Software Quality Assurance (SQA) as \"a continuous process that audits other software processes to ensure that those processes are being followed (includes for example a software quality management plan).\" whereas Software Quality Control (SCQ) means \"taking care of applying methods, tools, techniques to ensure satisfaction of the work products towards quality requirements for a software under development or modification.\"[43]\r\n\r\nOther general and historic\r\nThe first definition of quality history remembers is from Shewhart in the beginning of 20th century: \"There are two common aspects of quality: one of them has to do with the consideration of the quality of a thing as an objective reality independent of the existence of man. The other has to do with what we think, feel or sense as a result of the objective reality. In other words, there is a subjective side of quality.\"[44]\r\n\r\nKitchenham and Pfleeger, further reporting the teachings of David Garvin, identify five different perspectives on quality:[45][46]\r\n\r\nThe transcendental perspective deals with the metaphysical aspect of quality. In this view of quality, it is \"something toward which we strive as an ideal, but may never implement completely\".[47] It can hardly be defined, but is similar to what a federal judge once commented about obscenity: \"I know it when I see it\".[48]\r\nThe user perspective is concerned with the appropriateness of the product for a given context of use. Whereas the transcendental view is ethereal, the user view is more concrete, grounded in the product characteristics that meet user's needs.[47]\r\nThe manufacturing perspective represents quality as conformance to requirements. This aspect of quality is stressed by standards such as ISO 9001, which defines quality as \"the degree to which a set of inherent characteristics fulfills requirements\" (ISO/IEC 9001[49]).\r\nThe product perspective implies that quality can be appreciated by measuring the inherent characteristics of the product.\r\nThe final perspective of quality is value-based.[37] This perspective recognizes that the different perspectives of quality may have different importance, or value, to various stakeholders.\r\nThe problem inherent in attempts to define the quality of a product, almost any product, were stated by the master Walter A. Shewhart. The difficulty in defining quality is to translate future needs of the user into measurable characteristics, so that a product can be designed and turned out to give satisfaction at a price that the user will pay. This is not easy, and as soon as one feels fairly successful in the endeavor, he finds that the needs of the consumer have changed, competitors have moved in, etc.[50]\r\n\r\n— W. Edwards Deming\r\nQuality is a customer determination, not an engineer's determination, not a marketing determination, nor a general management determination. It is based on the customer's actual experience with the product or service, measured against his or her requirements -- stated or unstated, conscious or merely sensed, technically operational or entirely subjective -- and always representing a moving target in a competitive market.[51]\r\n\r\nThe word quality has multiple meanings. Two of these meanings dominate the use of the word: 1. Quality consists of those product features which meet the need of customers and thereby provide product satisfaction. 2. Quality consists of freedom from deficiencies. Nevertheless, in a handbook such as this it is convenient to standardize on a short definition of the word quality as \"fitness for use\".[52]\r\n\r\nTom DeMarco has proposed that \"a product's quality is a function of how much it changes the world for the better.\"[citation needed] This can be interpreted as meaning that functional quality and user satisfaction are more important than structural quality in determining software quality.\r\n\r\nAnother definition, coined by Gerald Weinberg in Quality Software Management: Systems Thinking, is \"Quality is value to some person.\"[53][54] This definition stresses that quality is inherently subjective—different people will experience the quality of the same software differently. One strength of this definition is the questions it invites software teams to consider, such as \"Who are the people we want to value our software?\" and \"What will be valuable to them?\".\r\n\r\nOther meanings and controversies\r\nOne of the challenges in defining quality is that \"everyone feels they understand it\"[55] and other definitions of software quality could be based on extending the various descriptions of the concept of quality used in business.\r\n\r\nSoftware quality also often gets mixed-up with Quality Assurance or Problem Resolution Management[56] or Quality Control[57] or DevOps. It does over-lap with before mentioned areas (see also PMI definitions), but is distinctive as it does not solely focus on testing but also on processes, management, improvements, assessments, etc.[57]\r\n\r\n\r\nMeasurement\r\nAlthough the concepts presented in this section are applicable to both structural and functional software quality, measurement of the latter is essentially performed through software testing.[58] However, testing isn't enough: According to one study, \"individual programmers are less than 50% efficient at finding bugs in their own software. And most forms of testing are only 35% efficient. This makes it difficult to determine [software] quality.\"[59]\r\n\r\nIntroduction\r\n\r\nRelationship between software desirable characteristics (right) and measurable attributes (left)\r\nSoftware quality measurement is about quantifying to what extent a system or software possesses desirable characteristics. This can be performed through qualitative or quantitative means or a mix of both. In both cases, for each desirable characteristic, there are a set of measurable attributes the existence of which in a piece of software or system tend to be correlated and associated with this characteristic. For example, an attribute associated with portability is the number of target-dependent statements in a program. More precisely, using the Quality Function Deployment approach, these measurable attributes are the \"hows\" that need to be enforced to enable the \"whats\" in the Software Quality definition above.\r\n\r\nThe structure, classification and terminology of attributes and metrics applicable to software quality management have been derived or extracted from the ISO 9126-3 and the subsequent ISO/IEC 25000:2005 quality model. The main focus is on internal structural quality. Subcategories have been created to handle specific areas like business application architecture and technical characteristics such as data access and manipulation or the notion of transactions.\r\n\r\nThe dependence tree between software quality characteristics and their measurable attributes is represented in the diagram on the right, where each of the 5 characteristics that matter for the user (right) or owner of the business system depends on measurable attributes (left):\r\n\r\nApplication Architecture Practices\r\nCoding Practices\r\nApplication Complexity\r\nDocumentation\r\nPortability\r\nTechnical and Functional Volume\r\nCorrelations between programming errors and production defects unveil that basic code errors account for 92 percent of the total errors in the source code. These numerous code-level issues eventually count for only 10 percent of the defects in production. Bad software engineering practices at the architecture levels account for only 8 percent of total defects, but consume over half the effort spent on fixing problems, and lead to 90 percent of the serious reliability, security, and efficiency issues in production.[60][61]\r\n\r\nCode-based analysis\r\nMany of the existing software measures count structural elements of the application that result from parsing the source code for such individual instructions[62] tokens[63] control structures (Complexity), and objects.[64]\r\n\r\nSoftware quality measurement is about quantifying to what extent a system or software rates along these dimensions. The analysis can be performed using a qualitative or quantitative approach or a mix of both to provide an aggregate view [using for example weighted average(s) that reflect relative importance between the factors being measured].\r\n\r\nThis view of software quality on a linear continuum has to be supplemented by the identification of discrete Critical Programming Errors. These vulnerabilities may not fail a test case, but they are the result of bad practices that under specific circumstances can lead to catastrophic outages, performance degradations, security breaches, corrupted data, and myriad other problems[65] that make a given system de facto unsuitable for use regardless of its rating based on aggregated measurements. A well-known example of vulnerability is the Common Weakness Enumeration,[66] a repository of vulnerabilities in the source code that make applications exposed to security breaches.\r\n\r\nThe measurement of critical application characteristics involves measuring structural attributes of the application's architecture, coding, and in-line documentation, as displayed in the picture above. Thus, each characteristic is affected by attributes at numerous levels of abstraction in the application and all of which must be included calculating the characteristic's measure if it is to be a valuable predictor of quality outcomes that affect the business. The layered approach to calculating characteristic measures displayed in the figure above was first proposed by Boehm and his colleagues at TRW (Boehm, 1978)[67] and is the approach taken in the ISO 9126 and 25000 series standards. These attributes can be measured from the parsed results of a static analysis of the application source code. Even dynamic characteristics of applications such as reliability and performance efficiency have their causal roots in the static structure of the application.\r\n\r\nStructural quality analysis and measurement is performed through the analysis of the source code, the architecture, software framework, database schema in relationship to principles and standards that together define the conceptual and logical architecture of a system. This is distinct from the basic, local, component-level code analysis typically performed by development tools which are mostly concerned with implementation considerations and are crucial during debugging and testing activities.\r\n\r\nReliability\r\nThe root causes of poor reliability are found in a combination of non-compliance with good architectural and coding practices. This non-compliance can be detected by measuring the static quality attributes of an application. Assessing the static attributes underlying an application's reliability provides an estimate of the level of business risk and the likelihood of potential application failures and defects the application will experience when placed in operation.\r\n\r\nAssessing reliability requires checks of at least the following software engineering best practices and technical attributes:\r\n\r\nApplication Architecture Practices\r\nCoding Practices\r\nComplexity of algorithms\r\nComplexity of programming practices\r\nCompliance with Object-Oriented and Structured Programming best practices (when applicable)\r\nComponent or pattern re-use ratio\r\nDirty programming\r\nError & Exception handling (for all layers - GUI, Logic & Data)\r\nMulti-layer design compliance\r\nResource bounds management\r\nSoftware avoids patterns that will lead to unexpected behaviors\r\nSoftware manages data integrity and consistency\r\nTransaction complexity level\r\nDepending on the application architecture and the third-party components used (such as external libraries or frameworks), custom checks should be defined along the lines drawn by the above list of best practices to ensure a better assessment of the reliability of the delivered software.\r\n\r\nEfficiency\r\nAs with Reliability, the causes of performance inefficiency are often found in violations of good architectural and coding practice which can be detected by measuring the static quality attributes of an application. These static attributes predict potential operational performance bottlenecks and future scalability problems, especially for applications requiring high execution speed for handling complex algorithms or huge volumes of data.\r\n\r\nAssessing performance efficiency requires checking at least the following software engineering best practices and technical attributes:\r\n\r\nApplication Architecture Practices\r\nAppropriate interactions with expensive and/or remote resources\r\nData access performance and data management\r\nMemory, network and disk space management\r\nCompliance with Coding Practices[68] (Best coding practices)\r\nSecurity\r\nSoftware quality includes software security.[69] Many security vulnerabilities result from poor coding and architectural practices such as SQL injection or cross-site scripting.[70][71] These are well documented in lists maintained by CWE,[72] and the SEI/Computer Emergency Center (CERT) at Carnegie Mellon University.[68]\r\n\r\nAssessing security requires at least checking the following software engineering best practices and technical attributes:\r\n\r\nImplementation, Management of a security-aware and hardening development process, e.g. Security Development Lifecycle (Microsoft) or IBM's Secure Engineering Framework.[73]\r\nSecure Application Architecture Practices[74][75]\r\nMulti-layer design compliance\r\nSecurity best practices (Input Validation, SQL Injection, Cross-Site Scripting, Access control etc.)[76][77]\r\nSecure and good Programming Practices[68]\r\nError & Exception handling\r\nMaintainability\r\nMaintainability includes concepts of modularity, understandability, changeability, testability, reusability, and transferability from one development team to another. These do not take the form of critical issues at the code level. Rather, poor maintainability is typically the result of thousands of minor violations with best practices in documentation, complexity avoidance strategy, and basic programming practices that make the difference between clean and easy-to-read code vs. unorganized and difficult-to-read code.[78]\r\n\r\nAssessing maintainability requires checking the following software engineering best practices and technical attributes:\r\n\r\nApplication Architecture Practices\r\nArchitecture, Programs and Code documentation embedded in source code\r\nCode readability\r\nCode smells\r\nComplexity level of transactions\r\nComplexity of algorithms\r\nComplexity of programming practices\r\nCompliance with Object-Oriented and Structured Programming best practices (when applicable)\r\nComponent or pattern re-use ratio\r\nControlled level of dynamic coding\r\nCoupling ratio\r\nDirty programming\r\nDocumentation\r\nHardware, OS, middleware, software components and database independence\r\nMulti-layer design compliance\r\nPortability\r\nProgramming Practices (code level)\r\nReduced duplicate code and functions\r\nSource code file organization cleanliness\r\nMaintainability is closely related to Ward Cunningham's concept of technical debt, which is an expression of the costs resulting of a lack of maintainability. Reasons for why maintainability is low can be classified as reckless vs. prudent and deliberate vs. inadvertent,[79][80] and often have their origin in developers' inability, lack of time and goals, their carelessness and discrepancies in the creation cost of and benefits from documentation and, in particular, maintainable source code.[81]\r\n\r\nSize",
+    "author": 1
+  }
+},
+{
+  "model": "blog.article",
+  "pk": 6,
+  "fields": {
+    "title": "Elon Musk",
+    "created_date": "2024-04-18T10:42:54.446Z",
+    "edit_date": "2024-04-18T10:42:54.446Z",
+    "body": "Elon Reeve Musk (/ˈiːlɒn/ EE-lon; born June 28, 1971) is a businessman and investor. He is the founder, chairman, CEO, and CTO of SpaceX; angel investor, CEO, product architect, and former chairman of Tesla, Inc.; owner, executive chairman, and CTO of X Corp.; founder of the Boring Company and xAI; co-founder of Neuralink and OpenAI; and president of the Musk Foundation. He is one of the wealthiest people in the world; as of April 2024, Forbes estimates his net worth to be $193 billion.[4]\r\n\r\nA member of the wealthy South African Musk family, Musk was born in Pretoria and briefly attended the University of Pretoria before immigrating to Canada at age 18, acquiring citizenship through his Canadian-born mother. Two years later, he matriculated at Queen's University at Kingston in Canada. Musk later transferred to the University of Pennsylvania and received bachelor's degrees in economics and physics. He moved to California in 1995 to attend Stanford University, but dropped out after two days and, with his brother Kimbal, co-founded online city guide software company Zip2. The startup was acquired by Compaq for $307 million in 1999. That same year, Musk co-founded X.com, a direct bank. X.com merged with Confinity in 2000 to form PayPal. In October 2002, eBay acquired PayPal for $1.5 billion. Using $100 million of the money he made from the sale of PayPal, Musk founded SpaceX, a spaceflight services company, in 2002.\r\n\r\nIn 2004, Musk became an early investor in electric vehicle manufacturer Tesla Motors, Inc. (later Tesla, Inc.). He became the company's chairman and product architect, assuming the position of CEO in 2008. In 2006, Musk helped create SolarCity, a solar-energy company that was acquired by Tesla in 2016 and became Tesla Energy. In 2013, he proposed a hyperloop high-speed vactrain transportation system. In 2015, he co-founded OpenAI, a nonprofit artificial intelligence research company. The following year, Musk co-founded Neuralink—a neurotechnology company developing brain–computer interfaces—and the Boring Company, a tunnel construction company. In 2018, the U.S. Securities and Exchange Commission (SEC) sued Musk, alleging that he had falsely announced that he had secured funding for a private takeover of Tesla. To settle the case, Musk stepped down as the chairman of Tesla and paid a $20 million fine. In 2022, he acquired Twitter for $44 billion. He subsequently merged the company into newly created X Corp. and rebranded the service as X the following year. In March 2023, Musk founded xAI, an artificial intelligence company.",
+    "author": 1
+  }
+},
+{
+  "model": "blog.article",
+  "pk": 7,
+  "fields": {
+    "title": "Washington, D.C.",
+    "created_date": "2024-04-18T10:43:37.552Z",
+    "edit_date": "2024-04-18T10:43:37.552Z",
+    "body": "Washington, D.C., formally the District of Columbia and commonly called Washington or D.C., is the capital city and federal district of the United States.[13] The city is on the Potomac River, across from Virginia, and shares land borders with Maryland to its north and east. Washington, D.C., was named for George Washington, a Founding Father and the first president of the United States.[14][15] The district is named for Columbia, the female personification of the nation.\r\n\r\nWashington, D.C., anchors the southern end of the Northeast megalopolis, one of the nation's largest and most influential cultural, political, and economic regions. As the seat of the U.S. federal government and several international organizations, the city is an important world political capital.[16] The city had 20.7 million domestic visitors[17] and 1.2 million international visitors, ranking seventh among U.S. cities as of 2022.[18]\r\n\r\nThe U.S. Constitution in 1789 called for the creation of a federal district under the exclusive jurisdiction of the U.S. Congress. As such, Washington, D.C., is not part of any state, and is not one itself. The Residence Act, adopted on July 16, 1790, approved the creation of the capital district along the Potomac River. The city was founded in 1791, and the 6th Congress held the first session in the unfinished Capitol Building in 1800 after the capital moved from Philadelphia. In 1801, the District of Columbia, formerly part of Maryland and Virginia and including the existing settlements of Georgetown and Alexandria, was officially recognized as the federal district; initially, the city was a separate settlement within the larger district.[19] In 1846, Congress returned the land originally ceded by Virginia, including the city of Alexandria. In 1871, it created a single municipality for the remaining portion of the district, although its locally elected government only lasted three years and elective city-government did not return for over a century.[20] There have been several unsuccessful efforts to make the district into a state since the 1880s; a statehood bill passed the House of Representatives in 2021 but was not adopted by the U.S. Senate.[21]\r\n\r\nDesigned in 1791 by Pierre Charles L'Enfant, the city is divided into quadrants, which are centered around the Capitol Building and include 131 neighborhoods. As of the 2020 census, the city had a population of 689,545,[3] making it the 23rd-most populous city in the U.S., third-most populous city in the Southeast after Jacksonville and Charlotte, and third-most populous city in the Mid-Atlantic after New York City and Philadelphia.[22] Commuters from the city's Maryland and Virginia suburbs raise the city's daytime population to more than one million during the workweek.[23] The Washington metropolitan area, which includes parts of Maryland, Virginia, and West Virginia, is the country's seventh-largest metropolitan area, with a 2023 population of 6.3 million residents.[6]\r\n\r\nThe city hosts the U.S. federal government and the buildings that house government headquarters, including the White House, the Capitol, the Supreme Court Building, and multiple federal departments and agencies. The city is home to many national monuments and museums, located most prominently on or around the National Mall, including the Jefferson Memorial, the Lincoln Memorial, and the Washington Monument. It hosts 177 foreign embassies and serves as the headquarters for the World Bank, the International Monetary Fund, the Organization of American States, and other international organizations. Many of the nation's largest industry associations, non-profit organizations, and think tanks are based in the city, including AARP, American Red Cross, Atlantic Council, Brookings Institution, National Geographic Society, The Heritage Foundation, Wilson Center, and others.\r\n\r\nA locally elected mayor and 13-member council have governed the district since 1973, though Congress retains the power to overturn local laws. Washington, D.C., residents are, on the federal level, politically disenfranchised since the city's residents do not have voting representation in Congress; the city's residents elect a single at-large congressional delegate to the U.S. House of Representatives who has no voting authority. The city's voters choose three presidential electors in accordance with the Twenty-third Amendment.",
+    "author": 1
+  }
+},
+{
+  "model": "blog.article",
+  "pk": 8,
+  "fields": {
+    "title": "United States",
+    "created_date": "2024-04-18T10:44:18.172Z",
+    "edit_date": "2024-04-18T10:44:18.172Z",
+    "body": "The World Health Organization (WHO) is a specialized agency of the United Nations responsible for international public health.[2] It is headquartered in Geneva, Switzerland, and has six regional offices and 150 field offices worldwide.[3]\r\n\r\nThe WHO was established on April 7, 1948, and convened its first meeting on July 24 of that year.[4][5] It incorporated the assets, personnel, and duties of the League of Nations' Health Organization and the Paris-based Office International d'Hygiène Publique, including the International Classification of Diseases (ICD).[6] The agency's work began in earnest in 1951 after a significant infusion of financial and technical resources.[7]\r\n\r\nThe WHO's official mandate is to promote health and safety while helping the vulnerable worldwide. It provides technical assistance to countries, sets international health standards, collects data on global health issues, and serves as a forum for scientific or policy discussions related to health.[2] Its official publication, the World Health Report, provides assessments of worldwide health topics.[8]\r\n\r\nThe WHO has played a leading role in several public health achievements, most notably the eradication of smallpox, the near-eradication of polio, and the development of an Ebola vaccine. Its current priorities include communicable diseases, such as HIV/AIDS, Ebola, malaria and tuberculosis; non-communicable diseases such as heart disease and cancer; healthy diet, nutrition, and food security; occupational health; and substance abuse. The agency advocates for universal health care coverage, engagement with the monitoring of public health risks, coordinating responses to health emergencies, and promoting health and well-being generally.[9]\r\n\r\nThe WHO is governed by the World Health Assembly (WHA), which is composed of its 194 member states. The WHA elects and advises an executive board made up of 34 health specialists; selects the WHO's chief administrator, the director-general (currently Tedros Adhanom Ghebreyesus of Ethiopia);[10] sets goals and priorities; and approves the budget and activities. The WHO is funded primarily by contributions from member states (both assessed a Then and voluntary), followed by private donors. Its total approved budget for 2020–2021 is over $7.2 billion.,[2][11] while the approved budget for 2022–2023 is over $6.2 billion. The budget is $6.83 billion for 2024 - 2025",
+    "author": 1
+  }
+},
+{
+  "model": "blog.article",
+  "pk": 9,
+  "fields": {
+    "title": "YouTube",
+    "created_date": "2024-04-18T10:44:38.957Z",
+    "edit_date": "2024-04-18T10:44:38.957Z",
+    "body": "YouTube is an American online video sharing and social media platform owned by Google. Accessible worldwide,[note 1] it was launched on February 14, 2005, by Steve Chen, Chad Hurley, and Jawed Karim, three former employees of PayPal. Headquartered in San Bruno, California, United States, it is the second most visited website in the world, after Google Search. YouTube has more than 2.5 billion monthly users,[2] who collectively watch more than one billion hours of videos every day.[7] As of May 2019, videos were being uploaded to the platform at a rate of more than 500 hours of content per minute,[8][9] and as of 2021, there were approximately 14 billion videos in total.[9]\r\n\r\nIn October 2006, YouTube was purchased by Google for $1.65 billion (equivalent to $2.31 billion in 2023).[10] Google expanded YouTube's business model of generating revenue from advertisements alone, to offering paid content such as movies and exclusive content produced by and for YouTube. It also offers YouTube Premium, a paid subscription option for watching content without ads. YouTube incorporated Google's AdSense program, generating more revenue for both YouTube and approved content creators. In 2022, YouTube's annual advertising revenue increased to $29.2 billion, more than $9 billion higher than in 2020.[1][11]\r\n\r\nSince its purchase by Google, YouTube has expanded beyond the core website into mobile apps, network television, and the ability to link with other platforms. Video categories on YouTube include music videos, video clips, news, short and feature films, songs, documentaries, movie and teaser trailers, live streams, vlogs, and more. Most content is generated by individuals, including collaborations between \"YouTubers\" and corporate sponsors. Established media, news, and entertainment corporations have also created and expanded their visibility to YouTube channels in order to reach greater audiences.\r\n\r\nYouTube has had unprecedented social impact, influencing popular culture, internet trends, and creating multimillionaire celebrities. Despite its growth and success, the platform is sometimes criticized for allegedly facilitating the spread of misinformation, the sharing of copyrighted content, routinely violating its users' privacy, enabling censorship, endangering child safety and wellbeing, and for its inconsistent or incorrect implementation of platform guidelines.",
+    "author": 1
+  }
+},
+{
+  "model": "blog.article",
+  "pk": 10,
+  "fields": {
+    "title": "Sun",
+    "created_date": "2024-04-18T10:46:34.713Z",
+    "edit_date": "2024-04-18T10:46:34.713Z",
+    "body": "The Sun is the star at the center of the Solar System. It is a massive, hot ball of plasma, inflated and heated by energy produced by nuclear fusion reactions at its core. Part of this energy is emitted from its surface as visible light, ultraviolet, and infrared radiation, providing most of the energy for life on Earth. The Sun has been an object of veneration in many cultures. It has been a central subject for astronomical research since antiquity.\r\n\r\nThe Sun orbits the Galactic Center at a distance of 26,660 light-years. From Earth, it is on average 1 AU (1.496×108 km) or about 8 light-minutes away. Its diameter is about 1,391,400 km (864,600 mi; 4.64 LS), 109 times that of Earth. Its mass is about 330,000 times that of Earth, making up about 99.86% of the total mass of the Solar System.[17] Roughly three-quarters of the Sun's mass consists of hydrogen (~73%); the rest is mostly helium (~25%), with much smaller quantities of heavier elements, including oxygen, carbon, neon, and iron.[18]\r\n\r\nThe Sun is a G-type main-sequence star (G2V), informally called a yellow dwarf, though its light is actually white. It formed approximately 4.6 billion[a][13][19] years ago from the gravitational collapse of matter within a region of a large molecular cloud. Most of this matter gathered in the center, whereas the rest flattened into an orbiting disk that became the Solar System. The central mass became so hot and dense that it eventually initiated nuclear fusion in its core. It is thought that almost all stars form by this process.\r\n\r\nEvery second, the Sun's core fuses about 600 million tons of hydrogen into helium and converts 4 million tons of matter into energy. Far in the future, when hydrogen fusion in the Sun's core diminishes to the point where the Sun is no longer in hydrostatic equilibrium, its core will undergo a marked increase in density and temperature which will cause its outer layers to expand, eventually transforming the Sun into a red giant. This process will make the Sun large enough to render Earth uninhabitable approximately five billion years from the present. Subsequently, the Sun will shed its outer layers and become a dense type of cooling star (a white dwarf), and no longer produce energy by fusion, but it will still glow and give off heat from its previous fusion for trillions of years. After that it is theorized to become a super dense black dwarf, giving off no more energy.",
+    "author": 1
+  }
+},
+{
+  "model": "blog.article",
+  "pk": 11,
+  "fields": {
+    "title": "Solar System",
+    "created_date": "2024-04-18T10:47:00.988Z",
+    "edit_date": "2024-04-18T10:47:00.988Z",
+    "body": "The Solar System[c] is the gravitationally bound system of the Sun and the objects that orbit it.[4] It was formed 4.6 billion years ago when a dense region of a molecular cloud collapsed, forming the Sun and a protoplanetary disc. The Sun is an ordinary main sequence star that maintains a balanced equilibrium by the fusion of hydrogen into helium at its core, releasing this energy from its outer photosphere.\r\n\r\nThe largest objects that orbit the Sun are the eight planets. In order from the Sun, they are four terrestrial planets (Mercury, Venus, Earth and Mars); two gas giants (Jupiter and Saturn); and two ice giants (Uranus and Neptune). All terrestrial planets have solid surfaces. Inversely, all giant planets do not have a definite surface, as they are mainly composed of gases and liquids. Over 99.86% of the Solar System's mass is in the Sun and nearly 90% of the remaining mass is in Jupiter and Saturn.\r\n\r\nThere is a strong consensus among astronomers[d] that the Solar System has at least eight dwarf planets: Ceres, Pluto, Haumea, Quaoar, Makemake, Gonggong, Eris, and Sedna. There are a vast number of small Solar System bodies, such as asteroids, comets, centaurs, meteoroids, and interplanetary dust clouds. Some of these bodies are in the asteroid belt (between Mars's and Jupiter's orbit) and the Kuiper belt (just outside Neptune's orbit).[e] Six planets, six dwarf planets, and other bodies have orbiting natural satellites, which are commonly called 'moons'.\r\n\r\nThe Solar System is constantly flooded by the Sun's charged particles, the solar wind, forming the heliosphere. Around 75–90 astronomical units, the solar wind is halted, resulting in the heliopause. This is the boundary of the Solar System to interstellar space. The outermost region of the Solar System is the theorized Oort cloud, the source for long-period comets, extending 2,000–200,000 astronomical units (0.032–3.2 light-years). The closest star to the Solar System, Proxima Centauri, is 4.25 light-years away. Both stars belong to the Local Group and the Milky Way galaxy.",
+    "author": 1
+  }
+}
+]
